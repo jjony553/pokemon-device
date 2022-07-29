@@ -15,6 +15,7 @@
 
 <script>
 import { reactive, toRefs, computed } from 'vue'
+import { fetchPokeList } from '../api/index'
 
 export default {
   name: 'HomeView',
@@ -36,7 +37,7 @@ export default {
       )
     }
 
-    fetch("https://pokeapi.co/api/v2/pokemon?offset=0")
+    fetchPokeList()
       .then((res) => res.json())
       .then((data) => {
         console.log(data)

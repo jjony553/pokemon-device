@@ -68,13 +68,15 @@
 <script>
 import { useRoute} from 'vue-router'
 import { reactive, toRefs } from'vue'
+import { fetchPokeInfo } from '../api/index'
+
 export default {
   setup() {
     const route = useRoute()
     const state = reactive({
       pokemon: null
     })
-  fetch(`https://pokeapi.co/api/v2/pokemon/${route.params.slug}/`)
+    fetchPokeInfo(route.params.slug)
     .then((res) => res.json())
     .then((data) => {
       console.log(data)
