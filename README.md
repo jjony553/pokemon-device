@@ -18,6 +18,6 @@ https://codepen.io/jjony553/pen/gOeGZpZ
 ![image](https://user-images.githubusercontent.com/55618626/182142684-0ac2bf52-ec02-403f-8bfb-97d05ee7c3d9.png)
 
 ####Device 
-![image](https://user-images.githubusercontent.com/55618626/182142845-7b8df9b5-da0d-4d56-a6b1-bf55c3d7dd07.png)
+![3](https://user-images.githubusercontent.com/55618626/182142924-5f592073-b451-45ad-b11b-581817b6e9ed.png)
 
 ```
